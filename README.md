@@ -14,3 +14,5 @@
 
 ## 2020
 - [**f-BRS**, CVPR2020] f-BRS: Rethinking Backpropagating Refinement for Interactive Segmentation. [[Paper](https://arxiv.org/abs/2001.10331)][[Pytorch](https://github.com/saic-vul/fbrs_interactive_segmentation/tree/master)]
+- [arXiv2020] Getting to 99% Accuracy in Interactive Segmentation. [[Paper](https://arxiv.org/abs/2003.07932)][[Pytorch](https://github.com/MarcoForte/DeepInteractiveSegmentation)]
+leverage each user interaction, click by click training regime, very high IoU discussions (up to 99%), image/interaction stream design  

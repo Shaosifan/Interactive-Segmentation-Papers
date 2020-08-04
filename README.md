@@ -18,7 +18,7 @@
 - [**IOG**, CVPR2020] Interactive Object Segmentation with Inside-Outside Guidance. [[Paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Interactive_Object_Segmentation_With_Inside-Outside_Guidance_CVPR_2020_paper.pdf)][[Code](https://github.com/shiyinzhang/Inside-Outside-Guidance)]   
 key points: inside-outside-guidance(click three points), extensive experiments on different datasets and domains 
 
-- [**FCA-Net**, CVPR2020] Interactive Image Segmentation With First Click Attention. [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Interactive_Image_Segmentation_With_First_Click_Attention_CVPR_2020_paper.pdf)][[Pytorch](https://github.com/frazerlin/fcanet)]
+- [**FCA-Net**, CVPR2020] Interactive Image Segmentation With First Click Attention. [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Interactive_Image_Segmentation_With_First_Click_Attention_CVPR_2020_paper.pdf)][[Pytorch](https://github.com/frazerlin/fcanet)]   
 Key points: first click attention, click loss(weighted binary cross entropy), structural integrity strategy
 
 - [arXiv2020] Getting to 99% Accuracy in Interactive Segmentation. [[Paper](https://arxiv.org/abs/2003.07932)][[Pytorch](https://github.com/MarcoForte/DeepInteractiveSegmentation)]   

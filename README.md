@@ -14,7 +14,9 @@
 
 ## 2020
 - [**f-BRS**, CVPR2020] f-BRS: Rethinking Backpropagating Refinement for Interactive Segmentation. [[Paper](https://arxiv.org/abs/2001.10331)][[Pytorch](https://github.com/saic-vul/fbrs_interactive_segmentation/tree/master)]
+
 - [**IOG**, CVPR2020] Interactive Object Segmentation with Inside-Outside Guidance. [[Paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Interactive_Object_Segmentation_With_Inside-Outside_Guidance_CVPR_2020_paper.pdf)][[Code](https://github.com/shiyinzhang/Inside-Outside-Guidance)]   
 key points: inside-outside-guidance(click three points), extensive experiments on different datasets and domains 
+
 - [arXiv2020] Getting to 99% Accuracy in Interactive Segmentation. [[Paper](https://arxiv.org/abs/2003.07932)][[Pytorch](https://github.com/MarcoForte/DeepInteractiveSegmentation)]   
 key points: leverage each user interaction, click by click training regime, very high IoU discussions (up to 99%), image/interaction stream design  

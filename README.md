@@ -1,7 +1,7 @@
 # Interactive-Segmentation-Papers
 
 ## 2016
-- [**DOS**, CVPR2016] Deep Interactive Object Selection. [[Paper](https://openaccess.thecvf.com/content_cvpr_2016/papers/Xu_Deep_Interactive_Object_CVPR_2016_paper.pdf)]   
+- [**iFCN**, CVPR2016] Deep Interactive Object Selection. [[Paper](https://openaccess.thecvf.com/content_cvpr_2016/papers/Xu_Deep_Interactive_Object_CVPR_2016_paper.pdf)]   
 Key points: first deep-learning-based method, Euclidean distant maps, sampling strategies, refinement by graph cut
 
 ## 2017 
@@ -16,6 +16,9 @@ Key points: iterative training strategy
 
 ## 2019
 - [**BRS**, CVPR2019] Interactive Image Segmentation via Backpropagating Refinement Scheme. [[Paper](https://vcg.seas.harvard.edu/publications/interactive-image-segmentation-via-backpropagating-refinement-scheme/paper)][[Caffe](https://github.com/wdjang/BRS-Interactive_segmentation)]
+
+- [CVPR2019] Content-Aware Multi-Level Guidance for Interactive Instance Segmentation. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Majumder_Content-Aware_Multi-Level_Guidance_for_Interactive_Instance_Segmentation_CVPR_2019_paper.pdf)]    
+Key points: superpixel-based guidance map rather than distant/gaussian map 
 
 ## 2020
 - [**f-BRS**, CVPR2020] f-BRS: Rethinking Backpropagating Refinement for Interactive Segmentation. [[Paper](https://arxiv.org/abs/2001.10331)][[Pytorch](https://github.com/saic-vul/fbrs_interactive_segmentation/tree/master)]

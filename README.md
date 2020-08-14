@@ -19,13 +19,15 @@ Key points: multi-modality exploration, plausible segmentations, selection netwo
 Key points: iterative training strategy 
 
 ## 2019
-- [**BRS**, CVPR2019] Interactive Image Segmentation via Backpropagating Refinement Scheme. [[Paper](https://vcg.seas.harvard.edu/publications/interactive-image-segmentation-via-backpropagating-refinement-scheme/paper)][[Caffe](https://github.com/wdjang/BRS-Interactive_segmentation)]
+- [**BRS**, CVPR2019] Interactive Image Segmentation via Backpropagating Refinement Scheme. [[Paper](https://vcg.seas.harvard.edu/publications/interactive-image-segmentation-via-backpropagating-refinement-scheme/paper)][[Caffe](https://github.com/wdjang/BRS-Interactive_segmentation)]     
+Key points: backpropagating refinement scheme in the test phase to enforce user-specified locations to have correct labels, small adjustments in interaction maps 
 
 - [CVPR2019] Content-Aware Multi-Level Guidance for Interactive Instance Segmentation. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Majumder_Content-Aware_Multi-Level_Guidance_for_Interactive_Instance_Segmentation_CVPR_2019_paper.pdf)]    
 Key points: superpixel-based guidance map rather than distant/gaussian map 
 
 ## 2020
 - [**f-BRS**, CVPR2020] f-BRS: Rethinking Backpropagating Refinement for Interactive Segmentation. [[Paper](https://arxiv.org/abs/2001.10331)][[Pytorch](https://github.com/saic-vul/fbrs_interactive_segmentation/tree/master)]
+Key points: based on BRS, auxiliary variables acting on features are involed, only a small part of network are passed to accelerate 
 
 - [**IOG**, CVPR2020] Interactive Object Segmentation with Inside-Outside Guidance. [[Paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Interactive_Object_Segmentation_With_Inside-Outside_Guidance_CVPR_2020_paper.pdf)][[Code](https://github.com/shiyinzhang/Inside-Outside-Guidance)]   
 Key points: inside-outside-guidance(click three points), extensive experiments on different datasets and domains 

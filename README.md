@@ -9,7 +9,11 @@ Key points: first deep-learning-based method, Euclidean distant maps, sampling s
 Key points: local regional refinement, ROIs sampling, combination of global context and local regional segmentation, click discounting factor for training
 
 ## 2018
-- [**DEXTR**, CVPR2018] Deep Extreme Cut: From Extreme Points to Object Segmentation. [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Maninis_Deep_Extreme_Cut_CVPR_2018_paper.html)][[Pytorch](https://github.com/scaelles/DEXTR-PyTorch)]
+- [**DEXTR**, CVPR2018] Deep Extreme Cut: From Extreme Points to Object Segmentation. [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Maninis_Deep_Extreme_Cut_CVPR_2018_paper.html)][[Pytorch](https://github.com/scaelles/DEXTR-PyTorch)]   
+Key points: exploit extreme points(left-most, right-most, top, bottom pixels), extensive experiemnts on four tasks
+
+- [CVPR2018] Interactive Image Segmentation with Latent Diversity. [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Interactive_Image_Segmentation_CVPR_2018_paper.pdf)][[Tensorflow](https://github.com/intel-isl/Intseg)]  
+Key points: multi-modality exploration, plausible segmentations, selection network
 
 - [**ITIS**, BMVC2018] Iteratively Trained Interactive Segmentation. [[Paper](https://arxiv.org/pdf/1805.04398v1.pdf)][[Tensoflow](https://github.com/sabarim/itis)]   
 Key points: iterative training strategy 

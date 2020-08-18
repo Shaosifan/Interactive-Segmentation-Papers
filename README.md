@@ -8,7 +8,7 @@ Key points: first deep-learning-based method, Euclidean distant maps, sampling s
 - [**RIS-Net**, ICCV2017] Regional Interactive Image Segmentation Networks. [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Liew_Regional_Interactive_Image_ICCV_2017_paper.html)]   
 Key points: local regional refinement, ROIs sampling, the combination of the global context and local regional segmentation, click discounting factor for training
 
-- [BMVC2018] Deep GrabCut for Object Selection. [[Paper](https://arxiv.org/pdf/1707.00243.pdf)][[Reimplementation in Pytorch](https://github.com/jfzhang95/DeepGrabCut-PyTorch)]   
+- [BMVC2017] Deep GrabCut for Object Selection. [[Paper](https://arxiv.org/pdf/1707.00243.pdf)][[Reimplementation in Pytorch](https://github.com/jfzhang95/DeepGrabCut-PyTorch)]   
 Key points: transform the loosely-played rectangle as a Euclidean distance map,  convolutional encoder-decoder network
 
 ## 2018

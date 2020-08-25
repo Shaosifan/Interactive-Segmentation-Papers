@@ -43,17 +43,17 @@ Key points: leverage each user interaction, click by click training regime, very
 
 
 ## Summary
-- User interactive ways:
+- User interactive ways:   
 bounding box, clicks(object/background points, extreme points, inside/outside points), contours   
 
 - Click embedding ways:  
 distant map, gaussian map, guidance map(combined with superpixel segmentation)
 
-- Archietecure:
+- Archietecure:   
 Encoder: VGG16, ResNet-34/50/101, U-Net, Denset  
 Decoder: Deeplab-v2/v3+/LargeFOV, U-Net
 
-- Post-processing
+- Post-processing   
 graph-cuts, CRF, backpropagating refinement, guided filter layer
 
 

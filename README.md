@@ -39,4 +39,25 @@ Key points: inside-outside-guidance(click three points), extensive experiments o
 Key points: first click attention, click loss(weighted binary cross entropy), structural integrity strategy
 
 - [arXiv2020] Getting to 99% Accuracy in Interactive Segmentation. [[Paper](https://arxiv.org/abs/2003.07932)][[Pytorch](https://github.com/MarcoForte/DeepInteractiveSegmentation)]   
-Key points: leverage each user interaction, click by click training regime, very high IoU discussions (up to 99%), image/interaction stream design  
+Key points: leverage each user interaction, click by click training regime, very high IoU discussions (up to 99%), image/interaction stream design
+
+
+## Summary
+- User interactive ways:
+bounding box, clicks(object/background points, extreme points, inside/outside points), contours   
+
+- Click embedding ways:  
+distant map, gaussian map, guidance map(combined with superpixel segmentation)
+
+- Archietecure:
+Encoder: VGG16, ResNet-34/50/101, U-Net, Denset  
+Decoder: Deeplab-v2/v3+/LargeFOV, U-Net
+
+- Post-processing
+graph-cuts, CRF, backpropagating refinement, guided filter layer
+
+
+
+
+
+
